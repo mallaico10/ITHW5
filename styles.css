@@ -1,22 +1,55 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Verdana', 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
     line-height: 1.6;
-    margin: 20px;
+    margin: 0;
+    padding: 20px;
 }
-
 h1, h2 {
     color: #333;
 }
-
 p, ul, ol {
     margin: 10px 0;
 }
-
 a {
     color: #007BFF;
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: underline;
 }
+body.practice-page h2 {
+    font-size: 2.5em; /
+    color: #16a085;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+body.practice-page ul {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    list-style-type: square;
+    margin-left: 30px;
+}
+body.practice-page ul li {
+    font-size: 1.1em;
+    color: #34495e;
+    margin-bottom: 12px;
+}
+body.practice-page ul li:hover {
+    color: #e74c3c;
+    cursor: pointer;
+}
+body.practice-page a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #3498db;
+}
+body.practice-page a:hover {
+    text-decoration: underline;
+    color: #2980b9;
+}
+
